@@ -1,5 +1,4 @@
 package chapter01;
-
 public class VariableTest {
 	int number;
 	public void test(){
@@ -29,5 +28,20 @@ public class VariableTest {
 		System.out.println(f);
 		System.out.println(d);
 		System.out.println(b+"+"+s);
+		
+		
+		//상수
+	    final int MAX_SPEED = 20;
+	    //max_speed=200;// 에러 상수(final이붙은 변수)는 이후에 값 대입을 할수 없다.
+	    
+	    
+	    //String 객체학인
+	    String str = new String("Hello");
+	    System.out.println(str);
+	    
+	    //String 객체를 리터럴로 사용하기,String을 기본타입처럼 쓸수 있도록 자바가 제공해주는것 컴파일하면 위의 코드로 컴파일된다.
+	    String str1 = "Hello";
+	    System.out.println(str1);
+	    
 	}
 }
