@@ -3,17 +3,17 @@ import java.util.Scanner;
 
 public class IOTest {
 	public static void main(String args[]){
-//		System.out.println("Hello World");
-//		System.out.print("Hello World\n");
-//		System.out.print("Hello World");
+		System.out.println("Hello World");
+		System.out.print("Hello World\n");
+		System.out.print("Hello World");
 		
 		//줄만 바꿀 때
-//		System.out.println("");
-//		System.out.print('\n');
-//		System.out.println("Hello World");
+		System.out.println("");
+		System.out.print('\n');
+		System.out.println("Hello World");
 		Scanner ss= new Scanner(System.in);
-//		int count = ss.nextInt();
-//		int count2 = ss.nextInt();
+		int count = ss.nextInt();
+		int count2 = ss.nextInt();
 		String str =ss.next();
 		String str2 = ss.nextLine();
 		System.out.println(str+":"+str2);
